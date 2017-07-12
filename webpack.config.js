@@ -4,7 +4,7 @@ console.log(path.resolve(__dirname, 'index.js'))
 
 module.exports = {
     devtool: 'eval-source-map',
-    entry: path.resolve(__dirname, 'index.js'),
+    entry: path.resolve(__dirname, 'src/index.js'),
     output: {
         path: path.resolve(__dirname, 'build'),
         filename: "bundle.js"
@@ -13,7 +13,7 @@ module.exports = {
         extensions: ['.js', '.vue', '.json'],
         alias: {
           'vue$': 'vue/dist/vue.esm.js',
-          '@': __dirname
+          '@': path.resolve(__dirname, 'src')
         }
     },
     module: {
