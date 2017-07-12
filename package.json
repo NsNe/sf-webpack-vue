@@ -1,0 +1,27 @@
+{
+  "name": "sf-webpack-vue",
+  "version": "1.0.0",
+  "description": "Answer for segmentfault webpack ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.28.4",
+    "file-loader": "^0.11.2",
+    "less-loader": "^4.0.5",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "vue-loader": "^13.0.1",
+    "webpack": "~2.4.1",
+    "webpack-dev-server": "~2.4.1"
+  },
+  "dependencies": {
+    "less": "^2.7.2",
+    "vue": "^2.3.4",
+    "vue-router": "^2.7.0",
+    "vue-template-compiler": "^2.3.4"
+  }
+}
